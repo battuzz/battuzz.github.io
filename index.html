@@ -1,0 +1,71 @@
+---
+layout: splash
+author_profile: false
+title: MLModena
+tagline: La community di Modena dedicata al Machine Learning
+header:
+  caption: 
+  overlay_image: /assets/images/header-bg.jpg
+  cta_url: "#eventi-in-programma"
+  cta_label: Scopri gli eventi in programma
+
+intro:
+  - excerpt: 'Una citazione per fare i fighi'
+
+feature_row:
+  - image_path: /assets/images/team/1.png
+    alt: "Marco Arena"
+    title: "Marco Arena"
+    excerpt: "Tetra Pak Packaging Solutions"
+    image_class: authors
+  - image_path: /assets/images/team/2.png
+    alt: "Sara Egidi"
+    title: "Sara Egidi"
+    excerpt: "Tetra Pak Packaging Solutions"
+  - image_path: /assets/images/team/3.png
+    alt: "Sara Egidi"
+    title: "Antonio De Lauretis"
+    excerpt: "Scuderia Ferrari"
+  - image_path: /assets/images/team/4.png
+    alt: "Gabriele Borelli"
+    title: "Gabriele Borelli"
+    excerpt: "Tetra Pak Packaging Solutions"
+  - image_path: /assets/images/team/5.png
+    alt: "Mattia Verasani"
+    title: "Mattia Verasani"
+    excerpt: "Tetra Pak Packaging Solutions"
+  - image_path: /assets/images/team/6.png
+    alt: "Andrea Battistello"
+    title: "Andrea Battistello"
+    excerpt: "Scuderia Ferrari"
+
+entries_layout: grid
+---
+
+{% include feature_row id="intro" type="center" %}
+
+
+<section class="main-section-description">
+    {% capture my_include %} {% include introduzione.md %} {% endcapture %}
+    {{ my_include | markdownify }}
+</section>
+
+
+
+
+
+
+<section class="upcoming-events">
+    <h1 id="eventi-in-programma"> Eventi in programma: </h1> <a class="header-link" href="#eventi-in-programma" title="permalink"><span class="sr-only">Permalink</span></a>
+    
+    <div class="entries-grid">
+        {% for post in site.posts %}    
+            {% if post.date >= site.time %}
+                {% include archive-single.html type=grid %}
+            {% endif %}
+        {% endfor %}
+    </div>
+</section>
+
+
+
