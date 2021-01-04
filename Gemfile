@@ -1,9 +1,4 @@
 source "https://rubygems.org"
 
-# use local theme gem for testing
-gem "minimal-mistakes-jekyll"
-
-
-gem "wdm", "~> 0.1.0" if Gem.win_platform?
-
 gem "github-pages", "~> 209", group: :jekyll_plugins
+gem "minimal-mistakes-jekyll", "~> 4.21.0", group: :jekyll_plugins
