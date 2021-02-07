@@ -1,11 +1,9 @@
 # main links links
 main:
   - title: "Eventi"
-    url: /year-archive/
+    url: /archivio-eventi
   - title: "Materiale"
-    url: /collection-archive/
-  - title: "Mappa del sito"
-    url: /sitemap/
+    url: /archivio-materiale/
   - title: "About"
     url: /about
 

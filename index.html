@@ -61,7 +61,7 @@ entries_layout: grid
     <h1 id="eventi-in-programma"> Eventi in programma: </h1> <a class="header-link" href="#eventi-in-programma" title="permalink"><span class="sr-only">Permalink</span></a>
     
     <div class="entries-grid">
-        {% for post in site.posts %}    
+        {% for post in site.eventi %}    
             {% if post.date >= site.time %}
                 {% include archive-single.html type=grid %}
             {% endif %}
