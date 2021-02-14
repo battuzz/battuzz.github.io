@@ -13,8 +13,7 @@ tags:
 ---
 
 
-Marco comincia con una breve introduzione della community, dopodiché seguirà una breve introduzione al Machine Learning da parte di Mattia e Sara.
-Enjoy! :D
+Oggi abbiamo introdotto la community e gli obiettivi che ci siamo prefissati. Dopodiché Sara e Mattia hanno fatto una panoramica generale sul machine learning nel loro talk "Piacere, AI".
 
 ## Video introduttivo
 {% include video id="mklrgw0MzLU" provider="youtube" %}

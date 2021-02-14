@@ -11,9 +11,6 @@ tags:
   - community
 ---
 
-# Partecipa al primo evento online
-### Mercoledì 2 Dicembre
-
 Sei un professionista nell'ambito del Machine Learning?
 
 Sei un ricercatore, uno studente o un appassionato della materia?
@@ -22,4 +19,5 @@ O sei semplicemente curioso di capire come le nuove tecnologie e l’intelligenz
 
 **Unisciti alla community per il nostro primo incontro.. online!**
 **Incontriamoci virtualmente Mercoledì 2 Dicembre**
+
 [➕ Iscriviti all'evento](#link){: .btn .btn--primary .btn--large}
