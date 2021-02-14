@@ -9,10 +9,6 @@ header:
   cta_url: "#eventi-in-programma"
   cta_label: Scopri gli eventi in programma
 
-intro:
-  - excerpt: |
-      > Una citazione per fare i fighi 
-      > <cite>Andrea Battistello</cite>
 
 feature_row:
   - image_path: /assets/images/team/1.png
@@ -44,8 +40,6 @@ feature_row:
 entries_layout: grid
 ---
 
-{% include feature_row id="intro" type="center" %}
-
 
 <section class="main-section-description">
     {% capture my_include %} {% include introduzione.md %} {% endcapture %}
@@ -58,7 +52,7 @@ entries_layout: grid
 
 
 <section class="upcoming-events">
-    <h1 id="eventi-in-programma"> Eventi in programma: </h1> <a class="header-link" href="#eventi-in-programma" title="permalink"><span class="sr-only">Permalink</span></a>
+    <h1 id="eventi-in-programma"> Prossimi eventi: </h1> <a class="header-link" href="#eventi-in-programma" title="permalink"><span class="sr-only">Permalink</span></a>
     
     <div class="entries-grid">
         {% for post in site.eventi %}    

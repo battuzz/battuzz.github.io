@@ -45,6 +45,8 @@ partners:
     alt: Make it Modena
 ---
 
+
+<br />
 # EXECUTIVE BOARD
 {: .text-center}
 
@@ -52,6 +54,7 @@ Siamo professionisti che operano in questo territorio e vivono da anni il mondo 
 
 {% include feature_row class="round compact" image_style="max-height: 225px; max-width: 225px" %}
 
+<br />
 # DOVE SIAMO
 {: .text-center}
 
@@ -59,6 +62,8 @@ Il nostro centro è qui a Modena. Un territorio che ha dimostrato di saper esser
 
 {% include mappa.html %}
 
+
+<br />
 # PARTNERS
 {: .text-center}
 
